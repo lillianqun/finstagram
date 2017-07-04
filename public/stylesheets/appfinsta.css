@@ -1,0 +1,31 @@
+header {
+    background-color: #244751;
+    color: #E8FDFF;
+    padding-left: 10px;
+}
+body {
+    background-color: whitesmoke;
+}
+main {
+    background-color: white;
+    padding: 16px;
+}
+.post {
+    margin-bottom: 48px;
+}
+.post .user-info img {
+    border-radius: 15%;
+}
+.post .user-info .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+.post .user-info:hover .after {
+    display: block;
+    background: gold;
+}
