@@ -16,7 +16,7 @@ main {
 .post .user-info img {
     border-radius: 15%;
 }
-.post .user-info .after {
+.post .photo .after {
     position: absolute;
     top: 0;
     left: 0;
@@ -25,7 +25,11 @@ main {
     display: none;
     color: #FFF;
 }
-.post .user-info:hover .after {
+.post .photo:hover .after {
     display: block;
-    background: gold;
+    background: mistyrose;
+    opacity: 0.5;
+}
+.post .photo {
+    position: relative;
 }
